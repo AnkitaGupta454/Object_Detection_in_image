@@ -41,10 +41,9 @@ The object to be identified shall belong to one of the following categories: </p
 
 <p>YOLO is different from all these methods as it treats the problem of image detection as a regression problem rather than a classification problem and supports a single convolutional neural network to perform all the above mentioned tasks. The unification of all the independent tasks into one network has the following benefits:</p>
 <ul>
-  <li>SPEED: YOLO is extremely fast comapared to its predecessors as it uses a single convolution network to detect objects. The convolution is performed on the entire input image only once to yield the predictions.</li>  
-<li>LESS BACKGROUND MISTAKES: YOLO performs the convolution on the whole image rather than sections of it due to which it encodes contextual information about the classes and their appearances. It makes less mistakes in predicting background patches as objects as it views the entire image and reasons globally rather than locally.</li>
-<li>HIGHLY GENERALIZABLE: YOLO learns generalizable representations of objects due to which it can be applied to new domains and unexpected inputs without breaking.
-  </li>
+  <li>Speed</li>  
+<li>Less Background mistakes</li>
+<li>Highly Generalizable </li>
 
 </ul>
 
